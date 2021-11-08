@@ -36,7 +36,10 @@ h2 {
   font-weight: 400;
   font-family: 'Saira Extra Condensed', serif;
   font-size: 1rem; }
-
+.subpara {
+  font-weight: 400;
+  font-family: 'Saira Extra Condensed', serif;
+  font-size: 1rem; }
 .list-social-icons a {
   color: #495057; }
   .list-social-icons a:hover {
@@ -45,7 +48,7 @@ h2 {
     font-size: 1.75rem; }
 
 .list-icons {
-  font-size: 3rem; }
+  font-size: 2rem; }
   .list-icons .list-inline-item i:hover {
     color: #BD5D38; }
 
@@ -113,3 +116,15 @@ a {
   color: #BD5D38; }
   a:hover, a:focus, a:active {
     color: #824027; }
+.thumbnail {
+    background-color: black;
+    width: auto;
+    height: 150px;
+    display: inline-block; /* makes it fit in like an <img> */
+    background-size: contain; /* or contain */
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.dark-text{
+	color: #000000;
+}
